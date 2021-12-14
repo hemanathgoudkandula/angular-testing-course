@@ -16,7 +16,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    cd angular-testing-course
     npm install -g @angular/cli
     npm install
     npm run server
